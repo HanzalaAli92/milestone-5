@@ -1,0 +1,97 @@
+/* Styling form and resume sections */
+
+body {
+    font-family: 'Century Gothic', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: white;
+}
+
+form {
+    margin: auto;
+    background-color: #f5f5f5; /* Light gray for background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #1e1e1e; /* Dark gray */
+}
+
+fieldset {
+    border: 2px solid #00539C; /* Navy blue border */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9; /* Very light gray */
+}
+
+legend {
+    font-weight: bold;
+    color: #333333; /* Medium-dark gray */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #1e1e1e; /* Dark gray */
+}
+
+input, textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 16px); /* Adjusted width */
+    border: 1px solid #00539C; /* Navy blue border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white; /* White input background */
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #00539C; /* Navy blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    color:antiquewhite;
+    background-color: #003366; /* Darker navy blue on hover */
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #00539C; /* Navy blue border */
+    border-radius: 8px;
+    background-color: #f5f5f5; /* Light gray background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow */
+}
+
+#resume-display h2 {
+    color: #1e1e1e; /* Dark gray */
+}
+
+
+.profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #00539C;
+    box-shadow: 0 4px 8px #00539C;
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
